@@ -1,0 +1,56 @@
+$img: 20px;
+.container {
+    padding: 20px 40px;
+}
+
+.searchContainer {
+    width: 200px;
+    height: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+input {
+    border-radius: 25px;
+    height: 20px;
+    width: 170px;
+    padding-left: 30px;
+}
+
+img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: $img;
+    width: $img;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.itemContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    height: 40px;
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-weight: 700;
+    padding-left: 10px;
+    background-color: rgb(236, 236, 236);
+}
+
+.leftItem {
+    width: 300px;
+}
+
+.rightItem {
+    width: 600px;
+}
+
+a {
+    text-decoration: none;
+}
